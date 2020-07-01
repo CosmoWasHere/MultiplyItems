@@ -22,9 +22,6 @@ public class CommandMultiply implements CommandExecutor, Listener {
         dropsEnabled = !dropsEnabled;
         multiplier = 0;
 
-        System.out.println(dropsEnabled);
-        System.out.println(multiplier);
-
         return true;
     }
 
